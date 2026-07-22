@@ -1,7 +1,7 @@
-exports.connectToDatabase = (dataName) => {
+exports.connectToDatabase = async (dataName) => {
   console.log("se concectando ao banco: " + dataName);
 };
 
-exports.disconnectDatabase = () => {
+exports.disconnectDatabase = async () => {
   console.log("desconectado");
 };
